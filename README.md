@@ -10,10 +10,10 @@
 
 ### ขั้นตอนการติดตั้ง
 
-1. Update termux: `apt-get update && apt-get upgrade -y`
-2. Install wget: `apt-get install wget -y`
-3. Install proot: `apt-get install proot -y`
-4. Install git: `apt-get install git -y`
+1. termux-setup-storage ตอบยอมรับเข้าถึงที่เก็บข้อมูล
+2. pkg update -y ใส่ N ในทุกการเรียกถาม ถ้ามี
+3. pkg install wget proot git -y
+4. 
 5. Go to HOME folder: `cd ~`
 6. Download script: `git clone https://github.com/saengx/ubuntu-in-termux.git`
 7. Go to script folder: `cd ubuntu-in-termux`
