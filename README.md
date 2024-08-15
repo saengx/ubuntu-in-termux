@@ -13,10 +13,8 @@
 1. termux-setup-storage ตอบยอมรับเข้าถึงที่เก็บข้อมูล
 2. pkg update -y ใส่ N ในทุกการเรียกถาม ถ้ามี
 3. pkg install wget proot git -y
-4. 
-5. Go to HOME folder: `cd ~`
-6. Download script: `git clone https://github.com/saengx/ubuntu-in-termux.git`
-7. Go to script folder: `cd ubuntu-in-termux`
-8. Give execution permission: `chmod +x ubuntu.sh`
-9. Run the script: `./ubuntu.sh -y`
-10. Now just start ubuntu: `./startubuntu.sh`
+4. git clone https://github.com/saengx/ubuntu-in-termux.git
+5. cd ubuntu-in-termux
+6. chmod +x ubuntu.sh
+7. ./ubuntu.sh
+8. การเปิดใช้คำสั่ง./startubuntu.sh
